@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Inputs Demo</title>
+  </head>
+  <body>
+    <p>Do you prefer cats or dogs?</p>
+    <form>
+      <label for="dogs">Dogs: </label>
+      <!-- labeling same names connects radio buttons - can only select one  -->
+      <input type="radio" name="petChoice" id="dogs" value="DOGS">
+      <label for="cats">Cats:</label>
+      <input type="radio" name="petChoice" id="cats" value="CATS">
+      <p>What's your favoite color?</p>
+
+      <select name="color">
+        <!-- this works -->
+        <option>red</option>
+        <!-- this works, too -->
+        <option value="orange">orange</option>
+        <!-- selecting yellow will make purple get sent-->
+        <option value="purple"></option>
+      </select>
+      <p>How do you feel?</p>
+      <select name="mood">
+        <!-- this works -->
+        <option value="happy">:)</option>
+        <!-- this works, too -->
+        <option value="sad">:(</option>
+        <!-- selecting yellow will make purple get sent-->
+        <option value="meh">:/</option>
+        <textarea name="paragraph" rows="10" cols="80"></textarea>
+      </select>
+
+      <p><button>Go!</button></button></p>
+    <form>
+
+  </body>
+</html>

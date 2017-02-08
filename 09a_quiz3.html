@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Create This form</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form action="http://wikipedia.org">
+      <label for="firstname">First Name:</label>
+        <input id="firstname" placeholder="First Name" name="firstname"
+        required>
+      <label for="lastname">Last Name:</label>
+        <input id="lastname" placeholder="Last Name" name="lastname"
+        required>
+      <div>
+      <label for="male">Male</label>
+          <input type="radio" name="sex" value="male">
+      <label for="female">Female</label>
+        <input type="radio" name="sex" value="female">
+      <label for="other">Other</label>
+        <input type="radio" name="sex" value="other">
+      </div>
+      <label for="email">Email:</label>
+        <input type="email" name="email">
+      <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="your password" pattern=".{5,10}" required title="Henry Says Pasword must be 5 to 10 characters">
+      <p><label for="birthday">Birthday:</label>
+        <input type="date" name="birthday">
+      </p>
+      <div>
+        <label for="birthdates">Birthday:
+          <select name="month">
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+          </select>
+          <select name="date">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+          <select name="year">
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+          </select>
+        </label>
+      </div>
+      <p><label for="terms">I agree to the terms and conditions</label>
+        <input type="radio" name="agree"
+        required>
+      </p>
+      <input type="submit">
+    </form>
+  </body>
+</html>

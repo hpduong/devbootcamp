@@ -1,0 +1,32 @@
+h1 {
+  color: black;
+  /*
+  border-color: purple;
+  border-width: 5px;
+  border-style: solid;
+  */
+  border: 2px solid green;
+}
+
+/*width
+color
+style
+*/
+
+ul {
+  color: green;
+}
+
+h4 {
+  background: rgb(255,100,80);
+  color: purple;
+}
+body {
+  background: pink;
+
+/*body {
+  background: url(http://www.clipartkid.com/images/681/wood-grain-background-home-improvement-ImrDpJ-clipart.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/

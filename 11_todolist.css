@@ -22,3 +22,14 @@ li {
 h1 + ul {
   border: 4px solid purple;
 }
+
+.highlight {
+  color: blue;
+}
+li:first-letter {
+  color:green
+}
+
+h1:hover {
+  color:purple
+}

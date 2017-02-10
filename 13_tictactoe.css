@@ -1,0 +1,68 @@
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+thead {
+  margin-left: 100px;
+}
+
+#a {
+  color: blue;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+#b {
+  color: blue;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+#c {
+  color: blue;
+  border-bottom: 3px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+#d {
+  color: blue;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+#e {
+  color: blue;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+#f {
+  color: blue;
+  border-bottom: 3px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+#g {
+  color: blue;
+  border-right: 3px solid black;
+  width: 100px;
+  height: 100px;
+}
+#h {
+  color: blue;
+  border-right: 3px solid black;
+  width: 100px;
+  height: 100px;
+}

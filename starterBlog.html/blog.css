@@ -1,0 +1,37 @@
+body {
+  border: 15px solid #bdc3c7;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  font-family: 'Source Sans Pro';
+}
+
+.quote {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+.date {
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 800;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 2.0rem;
+}
+
+/* Gradient color1 - color2 - color1 */
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.post {
+  margin-bottom: 25px;
+}

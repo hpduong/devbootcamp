@@ -8,6 +8,10 @@ thead {
   margin-left: 100px;
 }
 
+table {
+  margin: auto;
+}
+
 #a {
   color: blue;
   border-right: 3px solid black;
@@ -37,6 +41,7 @@ thead {
   border-bottom: 3px solid black;
   width: 100px;
   height: 100px;
+
 }
 
 #e {
@@ -45,6 +50,7 @@ thead {
   border-bottom: 3px solid black;
   width: 100px;
   height: 100px;
+  background: green;
 }
 
 #f {
@@ -61,8 +67,11 @@ thead {
   height: 100px;
 }
 #h {
-  color: blue;
   border-right: 3px solid black;
   width: 100px;
   height: 100px;
+}
+
+h1:hover {
+  color: green;
 }
